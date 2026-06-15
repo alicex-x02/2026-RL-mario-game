@@ -1,0 +1,12 @@
+{
+  "team_id": "teamXX",
+  "members": ["name1", "name2"],
+  "method": "PPO",
+  "backbone": "cnn",
+  "env_trained_on": "SuperMarioBrosRandomStages-v0",
+  "extra_libraries": [],
+  "model_file": "model.pt",
+  "agent_file": "agent.py",
+  "train_command": "python train.py --total-steps 1000000 --out model.pt",
+  "notes": "Write honestly what you changed and how you trained the model."
+}

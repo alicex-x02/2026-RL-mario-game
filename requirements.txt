@@ -1,0 +1,12 @@
+# Student runtime for the Super Mario RL project.
+# Recommended: Python 3.10, 3.11, or 3.12 on a fresh virtual environment.
+
+numpy>=1.24,<2.0
+gymnasium>=0.29
+torch>=2.0
+imageio>=2.31
+opencv-python>=4.8
+
+# Real Super Mario environment.
+gym-super-mario-bros>=7.4.0
+nes-py>=8.2.1
