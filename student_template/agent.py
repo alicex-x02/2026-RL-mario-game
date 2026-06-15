@@ -53,8 +53,8 @@ class Agent(BaseAgent):
     signatures must remain compatible.
     """
 
-    TEAM_ID = "teamXX"
-    MEMBERS = ["name1", "name2"]
+    TEAM_ID = "team07"
+    MEMBERS = ["정유진", "배성원", "이지민", "정성현"]
     METHOD = "PPO"
     BACKBONE = "cnn"
 
