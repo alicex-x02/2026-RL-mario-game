@@ -33,9 +33,7 @@ if (Test-Path -LiteralPath $zip) {
 $files = New-Object System.Collections.Generic.List[string]
 $files.Add($modelPath)
 
-Get-ChildItem -LiteralPath $here -File -Filter "*.py" | Where-Object {
-    $_.Name -notmatch '_legacy\d+\.py$'
-} | ForEach-Object {
+Get-ChildItem -LiteralPath $here -File -Filter "*.py" | ForEach-Object {
     if ($_.FullName) {
         $files.Add($_.FullName)
     }
