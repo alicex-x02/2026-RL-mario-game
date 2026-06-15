@@ -135,21 +135,9 @@ def resolve_device(requested: str) -> str:
     if requested == "cpu":
         return "cpu"
     if requested == "cuda":
-        if torch.cuda.is_available():
-            try:
-                major, minor = torch.cuda.get_device_capability(0)
-                if major > 7 or (major == 7 and minor >= 5):
-                    return "cuda"
-            except Exception:
-                pass
-        return "cpu"
+        return "cuda" if torch.cuda.is_available() else "cpu"
     if torch.cuda.is_available():
-        try:
-            major, minor = torch.cuda.get_device_capability(0)
-            if major > 7 or (major == 7 and minor >= 5):
-                return "cuda"
-        except Exception:
-            pass
+        return "cuda"
     return "cpu"
 
 
