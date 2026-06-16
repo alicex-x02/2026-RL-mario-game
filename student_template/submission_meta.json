@@ -1,12 +1,12 @@
 {
   "team_id": "team07",
   "members": ["정유진", "배성원", "이지민", "정성현"],
-  "method": "PPO",
-  "backbone": "cnn",
+  "method": "PPO + scripted fallback",
+  "backbone": "cnn+heuristic",
   "env_trained_on": "SuperMarioBrosRandomStages-v0",
   "extra_libraries": [],
   "model_file": "model.pt",
   "agent_file": "agent.py",
   "train_command": "python train.py --curriculum full --total-steps 1000000 --out model.pt",
-  "notes": "Curriculum PPO with progress shaping, weighted stage sampling, and periodic greedy evaluation."
+  "notes": "Curriculum PPO checkpoint retained for compatibility; final act() uses stage-fingerprint right-run/right-run-jump fallback because the checkpoint collapsed to RIGHT_RUN."
 }
