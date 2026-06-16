@@ -1,3 +1,4 @@
+# model: NatureCNN(4x84x84)->512 shared trunk | policy=12 actions | value=1 | TEAM_ID=team07
 from __future__ import annotations
 
 import os

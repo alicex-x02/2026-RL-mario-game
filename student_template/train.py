@@ -1,3 +1,4 @@
+# preset: full curriculum PPO | device=cuda|auto | rollout=512 | lr=2.5e-4 | progress_coef=0.04 | clear_bonus=50 | total_steps=30000 default
 """
 Curriculum PPO trainer for the Super Mario RL student kit.
 

@@ -1,0 +1,85 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-5-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+[PPO] curriculum=full start_env=SuperMarioBros-5-2-v0 obs=(4, 84, 84) n_act=12 device=cuda
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-2-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-7-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBrosRandomStages-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 5/58 step 2560 avg_return  506.80 env SuperMarioBrosRandomStages-v0 sps 20
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-5-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-6-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-4-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-8-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 10/58 step 5120 avg_return  166.17 env SuperMarioBros-6-2-v0 sps 19
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-2-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-3-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-5-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-5-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-3-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-5-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-3-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-8-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-2-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-4-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 15/58 step 7680 avg_return  255.50 env SuperMarioBros-2-3-v0 sps 15
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-4-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-2-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-7-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-7-2-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-8-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-3-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 20/58 step 10240 avg_return  213.96 env SuperMarioBros-7-2-v0 sps 17
+upd 25/58 step 12800 avg_return  234.78 env SuperMarioBros-5-2-v0 sps 17
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-6-4-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-6-3-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-6-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 30/58 step 15360 avg_return  207.66 env SuperMarioBros-6-2-v0 sps 15
+upd 35/58 step 17920 avg_return  169.59 env SuperMarioBrosRandomStages-v0 sps 14
+upd 40/58 step 20480 avg_return  173.14 env SuperMarioBros-7-3-v0 sps 14
+upd 45/58 step 23040 avg_return  270.49 env SuperMarioBros-6-2-v0 sps 14
+upd 50/58 step 25600 avg_return  224.41 env SuperMarioBros-1-1-v0 sps 15
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-4-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-8-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd 55/58 step 28160 avg_return  166.51 env SuperMarioBros-2-2-v0 sps 15
+upd 58/58 step 29696 avg_return  146.83 env SuperMarioBros-1-3-v0 sps 15
+[PPO] checkpoint -> model.pt
+[PPO] final checkpoint -> model.pt
