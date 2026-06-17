@@ -1,0 +1,33 @@
+[PPO] Easy-stage curriculum
+[PPO] stages=['SuperMarioBros-1-1-v0']
+[PPO] phase_steps=100000
+[PPO] total_steps=100000
+[PPO] device=cuda
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd    5/97 step     5120 pool=1/1 avg_ret=  134.99 recent_clear= 0/16 sps=32
+  SuperMarioBros-1-1-v0: episodes=  16 clears=  0 clear_rate=0.00% best_x=1788 avg_ret10=  196.96
+upd   10/97 step    10240 pool=1/1 avg_ret=  119.89 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes=  26 clears=  0 clear_rate=0.00% best_x=2228 avg_ret10=   42.81
+upd   15/97 step    15360 pool=1/1 avg_ret=   27.17 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 101 clears=  0 clear_rate=0.00% best_x=2228 avg_ret10=    9.85
+upd   20/97 step    20480 pool=1/1 avg_ret=   29.82 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 113 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   34.72
+upd   25/97 step    25600 pool=1/1 avg_ret=   59.42 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 127 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   78.57
+upd   30/97 step    30720 pool=1/1 avg_ret=   74.62 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 176 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   92.76
+upd   35/97 step    35840 pool=1/1 avg_ret=   43.88 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 280 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   44.02
+upd   40/97 step    40960 pool=1/1 avg_ret=   44.20 recent_clear= 0/20 sps=32
+  SuperMarioBros-1-1-v0: episodes= 384 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   44.20
+upd   45/97 step    46080 pool=1/1 avg_ret=   44.20 recent_clear= 0/20 sps=33
+  SuperMarioBros-1-1-v0: episodes= 555 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   44.20
+upd   50/97 step    51200 pool=1/1 avg_ret=   44.20 recent_clear= 0/20 sps=33
+  SuperMarioBros-1-1-v0: episodes= 726 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   44.20
+upd   55/97 step    56320 pool=1/1 avg_ret=   44.20 recent_clear= 0/20 sps=33
+  SuperMarioBros-1-1-v0: episodes= 896 clears=  0 clear_rate=0.00% best_x=2471 avg_ret10=   44.20

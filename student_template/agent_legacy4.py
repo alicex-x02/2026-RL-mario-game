@@ -21,8 +21,8 @@ from mario_rl.interface import AgentMetadata, BaseAgent
 # 3: RIGHT_RUN
 # 4: RIGHT_RUN_JUMP
 # 5: JUMP
-
-DEFAULT_REDUCED_ACTIONS = [1, 2, 3, 4, 5]
+# 10: DOWN
+DEFAULT_REDUCED_ACTIONS = [1, 2, 3, 4, 5, 10]
 
 
 class NatureCNN(nn.Module):
