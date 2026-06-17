@@ -1,0 +1,23 @@
+[PPO] Easy-stage curriculum
+[PPO] stages=['SuperMarioBros-1-1-v0']
+[PPO] phase_steps=60000
+[PPO] total_steps=60000
+[PPO] device=cuda
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/home/adminuser/yujin/mario/.venv/lib/python3.10/site-packages/gym/envs/registration.py:555: UserWarning: [33mWARN: The environment SuperMarioBros-1-1-v0 is out of date. You should consider upgrading to version `v3`.[0m
+  logger.warn(
+upd    5/58 step     5120 pool=1/1 avg_ret=  170.98 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes=  22 clears=  0 clear_rate=0.00% best_x=1520 avg_ret10=  174.21
+upd   10/58 step    10240 pool=1/1 avg_ret=  126.24 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes=  43 clears=  0 clear_rate=0.00% best_x=1523 avg_ret10=  117.75
+upd   15/58 step    15360 pool=1/1 avg_ret=   87.48 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes=  63 clears=  0 clear_rate=0.00% best_x=1523 avg_ret10=  110.29
+upd   20/58 step    20480 pool=1/1 avg_ret=   96.11 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes=  75 clears=  0 clear_rate=0.00% best_x=1523 avg_ret10=   98.62
+upd   25/58 step    25600 pool=1/1 avg_ret=   58.62 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes= 101 clears=  0 clear_rate=0.00% best_x=1523 avg_ret10=  111.26
+upd   30/58 step    30720 pool=1/1 avg_ret=  114.51 recent_clear= 0/20 sps=34
+  SuperMarioBros-1-1-v0: episodes= 121 clears=  0 clear_rate=0.00% best_x=1655 avg_ret10=  126.95
